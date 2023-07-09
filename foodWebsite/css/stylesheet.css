@@ -1,0 +1,140 @@
+@charset "ISO-8859-1";
+body {
+    background-image: url("../images/background3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    margin: 20px;
+}
+#welHead {
+    color: #fff;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: 300;
+}
+h1 {
+    color: #fff;
+}
+
+nav {
+    background: white;
+}
+
+.navbar-toggler {
+    color: white;
+}
+
+#Welcome {
+    text-align: center;
+    color: #fff;
+}
+#viewSubmit {
+    background-color: #ff8c00;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 20px;
+    border-color: #ff4500;
+    border-radius: 50%;
+    text-align: center;
+    margin-bottom: 200px;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 10px; /* Add spacing between cells */
+    margin: 0 auto; /* Center the table horizontally */
+    padding-top: 50px;
+    color: white;
+}
+
+td {
+    padding: 10px; /* Add padding to cells */
+    text-align: center; /* Center the contents of cells */
+}
+
+.container {
+    padding-top: 70px;
+}
+
+.welcome {
+    padding-top: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #f2f2f2;
+    padding: 30px 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+#foot {
+    width: 100%;
+    table-layout: fixed;
+}
+
+#foot td {
+    padding: 0 20px;
+    vertical-align: top;
+    text-align: center;
+}
+
+#footHead {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.foot-head {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(105, 12, 12);
+}
+
+#foot ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#foot ul li {
+    margin-bottom: 5px;
+}
+
+#foot ul li a {
+    color: #666;
+    text-decoration: none;
+}
+
+#foot ul li a:hover {
+    color: #000;
+}
+
+/* Styles for the first column */
+#foot td:first-child {
+    border-right: 1px solid #ccc;
+}
+
+/* Styles for the second column */
+#foot td:nth-child(2) {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+
+/* Styles for the third column */
+#foot td:last-child {
+    border-left: 1px solid #ccc;
+}
